@@ -5,3 +5,8 @@ data_ingestion:
    source_Url: https://drive.google.com/file/d/1YfxUSOg3AEJbskOQvKgqox1Xpximpggm/view?usp=drive_link
    local_data_files: artifacts/data_ingestion/data.zip
    unzip_dir: artifacts/data_ingestion
+
+data_validation:
+   root_dir: artifacts/data_validation
+   unzip_data_dir: artifacts/data_ingestion/WineQT.csv
+   STATUS_FILE: artifacts/data_validation/status.txt
