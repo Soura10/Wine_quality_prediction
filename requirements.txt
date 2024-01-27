@@ -11,6 +11,7 @@ types-PyYAML
 tqdm
 Flask
 Flask-Cors
+mlflow==2.2.2
 #pymongo==3.6
 #dnspython
 -e .
